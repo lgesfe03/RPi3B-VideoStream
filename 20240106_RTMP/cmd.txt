@@ -1,0 +1,1 @@
+ffmpeg -i /dev/video0 -acodec aac -strict experimental -ar 44100 -ac 2 -b:a 96k -r 25 -b:v 500k -s 640*480 -f flv rtmp://192.168.3.11/live/stream
